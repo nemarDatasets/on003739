@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003739-blue)](https://doi.org/10.82901/nemar.on003739)
+
 Data was collected at the University of Michigan by Steven Peterson in the lab of Daniel Ferris. This study's protocol was approved by the University of Michigan Institutional Review Board and all participants provided written consent.
 
 Each data file includes synchronized 128-channel EEG, lower leg EMG, neck EMG, EOG, and motion capture data. Participants performed four 10-minute, same-day sessions where they either stood or walked at 0.22 m/s on a treadmill-mounted balance beam that was 2.5 cm tall and 12.7 cm wide.
