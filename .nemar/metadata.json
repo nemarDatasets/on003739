@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003739",
+  "source": "openneuro",
+  "source_id": "ds003739",
+  "title": "Perturbed beam-walking task",
+  "authors": {
+    "Steven Peterson": {},
+    "Daniel Ferris": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003739.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.6.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation (DGE 1256260)"
+    },
+    {
+      "funder_name": "Army Research Laboratory (W911NF-10-2-0022)"
+    },
+    {
+      "funder_name": "National Institutes of Health (R01 NS104772)"
+    }
+  ],
+  "acknowledgements": "We thank Estefania Rios and Zachary Ohs for their assistance with data collections and processing the motion capture data. We would also like to thank members of the Human Neuromechanics Laboratory for input regarding the experiment design and data processing."
+}
