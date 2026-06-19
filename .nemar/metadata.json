@@ -2,18 +2,38 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perturbed beam-walking task",
+  "description": "This dataset comprises synchronized multimodal neurophysiological and biomechanical recordings from 128-channel EEG, electromyography (EMG), electrooculography (EOG), and motion capture during a perturbed beam-walking task. Participants performed four 10-minute sessions of standing or walking on a narrow balance beam while exposed to sensorimotor perturbations (visual field rotations or waist pulls). The dataset includes preprocessed EEG data with identified good channels and independent component analysis results, enabling investigation of cortical mechanisms underlying balance control and responses to perturbations.",
+  "methods_description": "Data were collected during four same-day sessions where participants stood or walked at 0.22 m/s on a 2.5 cm tall, 12.7 cm wide treadmill-mounted balance beam. Sensorimotor perturbations consisted of virtual-reality-induced visual field rotations (0.5 seconds) or side-to-side waist pulls (1 second), with 150 balanced perturbation events per session. Synchronized recordings included 128-channel EEG, lower leg EMG, neck EMG, EOG, and motion capture data.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Steven Peterson": {},
     "Daniel Ferris": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003739.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "balance control"
+    },
+    {
+      "term": "motor perturbations"
+    },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "motion capture"
+    },
+    {
+      "term": "sensorimotor integration"
+    },
+    {
+      "term": "postural stability"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2019.05.038",
       "identifier_type": "DOI",
@@ -33,6 +53,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003739",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003739.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -49,12 +74,12 @@
       "award_number": "R01 NS104772"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.7 GB (241 files)"
   ],
   "formats": [
     ".fdt",
@@ -62,32 +87,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises synchronized multimodal neurophysiological and biomechanical recordings from 128-channel EEG, electromyography (EMG), electrooculography (EOG), and motion capture during a perturbed beam-walking task. Participants performed four 10-minute sessions of standing or walking on a narrow balance beam while exposed to sensorimotor perturbations (visual field rotations or waist pulls). The dataset includes preprocessed EEG data with identified good channels and independent component analysis results, enabling investigation of cortical mechanisms underlying balance control and sensorimotor integration during dynamic postural tasks.",
-  "methods_description": "Data were collected during four same-day sessions where participants stood or walked at 0.22 m/s on a 2.5 cm tall, 12.7 cm wide treadmill-mounted balance beam. Sensorimotor perturbations consisted of virtual-reality-induced visual field rotations (0.5 seconds) or side-to-side waist pulls (1 second), with 150 perturbation events per session balanced across directions. Synchronized recordings included 128-channel EEG, lower leg EMG, neck EMG, EOG, and motion capture. EEG preprocessing included channel quality assessment and independent component analysis.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "balance control"
-    },
-    {
-      "term": "postural perturbations"
-    },
-    {
-      "term": "electromyography"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "sensorimotor integration"
-    },
-    {
-      "term": "motion capture"
-    }
-  ],
-  "source_hash": "8026bf683e50dd0fa9e48c07e1720c34f5d0fc714fe1dc7cf293f19913fd24a2"
+  "source_hash": "6e7a941969bfb142a45a4aa546cb4cdfcf0080742e6807dc62d2809b468a9d83"
 }
