@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perturbed beam-walking task",
-  "description": "This dataset comprises synchronized multimodal neurophysiological and biomechanical recordings from 128-channel EEG, electromyography (EMG), electrooculography (EOG), and motion capture during a perturbed beam-walking task. Participants performed four 10-minute sessions of standing or walking on a narrow balance beam while exposed to sensorimotor perturbations (visual field rotations or waist pulls). The dataset includes preprocessed EEG data with identified good channels and independent component analysis results, enabling investigation of cortical mechanisms underlying balance control and responses to perturbations.",
-  "methods_description": "Data were collected during four same-day sessions where participants stood or walked at 0.22 m/s on a 2.5 cm tall, 12.7 cm wide treadmill-mounted balance beam. Sensorimotor perturbations consisted of virtual-reality-induced visual field rotations (0.5 seconds) or side-to-side waist pulls (1 second), with 150 balanced perturbation events per session. Synchronized recordings included 128-channel EEG, lower leg EMG, neck EMG, EOG, and motion capture data.",
+  "description": "A multimodal dataset of human balance during beam walking and standing on a treadmill-mounted balance beam. It includes synchronized 128-channel EEG, lower leg and neck EMG, EOG, and motion capture. Participants were exposed to visual field rotations in virtual reality or physical side-to-side waist pulls, which allows electrocortical and muscular responses to sensorimotor perturbations to be compared.",
+  "methods_description": "Participants completed four 10-minute same-day sessions in which they stood or walked at 0.22 m/s on a treadmill-mounted balance beam (2.5 cm tall, 12.7 cm wide). Each session had 150 perturbation events, balanced between directions. The perturbations were either virtual-reality visual field rotations (0.5 s) or side-to-side waist pulls (1 s). Good channel indices and ICA sphere and weight matrices are stored in EEG.etc of each .set file.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,22 +15,24 @@
       "term": "EEG"
     },
     {
-      "term": "balance control"
-    },
-    {
-      "term": "motor perturbations"
-    },
-    {
-      "term": "electromyography"
+      "term": "EMG"
     },
     {
       "term": "motion capture"
     },
     {
-      "term": "sensorimotor integration"
+      "term": "balance perturbation"
     },
     {
-      "term": "postural stability"
+      "term": "walking"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "Postural Balance",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004856"
     }
   ],
   "related_identifiers": [
@@ -42,7 +44,7 @@
     {
       "identifier": "10.1523/ENEURO.0207-18.2018",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003739",
@@ -50,14 +52,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003739",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003739.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003739",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -79,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.7 GB (241 files)"
+    "10.93 GB (241 files)"
   ],
   "formats": [
     ".fdt",
