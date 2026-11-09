@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perturbed beam-walking task",
-  "description": "A multimodal dataset of human balance during beam walking and standing on a treadmill-mounted balance beam. It includes synchronized 128-channel EEG, lower leg and neck EMG, EOG, and motion capture. Participants were exposed to visual field rotations in virtual reality or physical side-to-side waist pulls, which allows electrocortical and muscular responses to sensorimotor perturbations to be compared.",
-  "methods_description": "Participants completed four 10-minute same-day sessions in which they stood or walked at 0.22 m/s on a treadmill-mounted balance beam (2.5 cm tall, 12.7 cm wide). Each session had 150 perturbation events, balanced between directions. The perturbations were either virtual-reality visual field rotations (0.5 s) or side-to-side waist pulls (1 s). Good channel indices and ICA sphere and weight matrices are stored in EEG.etc of each .set file.",
+  "description": "This dataset contains synchronized 128-channel EEG, lower leg and neck EMG, EOG, and motion capture recordings from young adults performing a perturbed beam-walking and standing task. Participants completed four 10-minute sessions on a treadmill-mounted balance beam while exposed to virtual-reality visual field rotations or side-to-side waist pulls, with 150 perturbations per session. The data support study of electrocortical, muscular, and kinematic responses to sensorimotor perturbations during balance control.",
+  "methods_description": "Participants stood or walked at 0.22 m/s on a treadmill-mounted balance beam (2.5 cm tall, 12.7 cm wide) in four 10-minute same-day sessions. Perturbations were either virtual-reality visual field rotations (0.5 s) or side-to-side waist pulls (1 s), balanced across directions, with 150 events per session. 128-channel EEG, EMG, EOG, and motion capture were recorded in sync. Good channel indices and ICA sphere/weight matrices are stored in EEG.etc of each .set file.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,7 +27,9 @@
       "term": "walking"
     },
     {
-      "term": "virtual reality"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
       "term": "Postural Balance",
@@ -44,7 +46,7 @@
     {
       "identifier": "10.1523/ENEURO.0207-18.2018",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003739",
@@ -52,13 +54,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003739.v1.0.2",
+      "identifier": "https://nemar.org/dataset/on003739",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003739.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "https://nemar.org/dataset/on003739",
-      "identifier_type": "URL",
+      "identifier": "10.1016/j.dib.2021.107635",
+      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -92,5 +99,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "6e7a941969bfb142a45a4aa546cb4cdfcf0080742e6807dc62d2809b468a9d83"
+  "source_hash": "e9681bf144aa255fc838239f9a6f2174179339eb68b5c5fa001ca31138dbb888"
 }
