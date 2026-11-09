@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perturbed beam-walking task",
-  "description": "This dataset contains synchronized 128-channel EEG, lower leg and neck EMG, EOG, and motion capture recordings from young adults performing a perturbed beam-walking and standing task. Participants completed four 10-minute sessions on a treadmill-mounted balance beam while exposed to virtual-reality visual field rotations or side-to-side waist pulls, with 150 perturbations per session. The data support study of electrocortical, muscular, and kinematic responses to sensorimotor perturbations during balance control.",
-  "methods_description": "Participants stood or walked at 0.22 m/s on a treadmill-mounted balance beam (2.5 cm tall, 12.7 cm wide) in four 10-minute same-day sessions. Perturbations were either virtual-reality visual field rotations (0.5 s) or side-to-side waist pulls (1 s), balanced across directions, with 150 events per session. 128-channel EEG, EMG, EOG, and motion capture were recorded in sync. Good channel indices and ICA sphere/weight matrices are stored in EEG.etc of each .set file.",
+  "description": "This dataset contains synchronized 128-channel EEG, lower leg and neck EMG, EOG, and motion capture recordings from participants standing or walking on a treadmill-mounted balance beam while exposed to sensorimotor perturbations. Perturbations were either virtual-reality visual field rotations or side-to-side waist pulls. Each participant completed four 10-minute sessions with 150 perturbation events each. The dataset supports study of electrocortical and muscular responses to balance perturbations.",
+  "methods_description": "Participants completed four 10-minute same-day sessions of standing or walking at 0.22 m/s on a treadmill-mounted balance beam (2.5 cm tall, 12.7 cm wide). Each session had 150 perturbations, balanced across directions: visual field rotations (0.5 s) or waist pulls (1 s). EEG (128 channels), EMG, EOG and motion capture were recorded synchronously. Good channel indices and ICA matrices are stored in EEG.etc of each .set file.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,14 +27,12 @@
       "term": "walking"
     },
     {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+      "term": "virtual reality"
     },
     {
-      "term": "Postural Balance",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004856"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
